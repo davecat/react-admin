@@ -27,9 +27,5 @@
       "changeOrigin": true,
       "ws": true
     }
-  },
-  "devServer": {
-    "host": "0.0.0.0",
-    "post": "9999"
   }
 }
