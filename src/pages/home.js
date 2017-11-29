@@ -17,10 +17,10 @@ class Home extends React.Component {
         return (
             <div className="main">
                 <div className="header">
-                    <div class="logo">后台管理系统</div>
-                    <div class="user-info">
-                        <span class="username">你好，测试者</span>
-                        <i class="fa fa-sign-out logout" ></i>
+                    <div className="logo">后台管理系统</div>
+                    <div className="user-info">
+                        <span className="username">你好，测试者</span>
+                        <i className="fa fa-sign-out logout" ></i>
                     </div>
                 </div>
                 <div className="sidebar">
@@ -37,6 +37,9 @@ class Home extends React.Component {
                         <Menu.Item index="2"><i className="el-icon-menu"></i>导航二</Menu.Item>
                         <Menu.Item index="3"><i className="el-icon-setting"></i>导航三</Menu.Item>
                     </Menu>
+                </div>
+                <div className="showArea">
+                    <h1>展示页</h1>
                 </div>
             </div>
         )

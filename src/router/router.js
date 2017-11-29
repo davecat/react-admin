@@ -3,9 +3,11 @@
  */
 import React from 'react'
 import Home from '../pages/home'
+import Login from '../pages/login'
 import {
     BrowserRouter as Router,
     Route,
+    Redirect,
     Switch
 } from 'react-router-dom'
 
@@ -14,9 +16,10 @@ class router extends React.Component {
         return (
             <Router>
                 <Switch>
-                    <Route path='/home' component={ Home }></Route>
-                    <Route></Route>
-                    <Route></Route>
+                    {/*必须加上exact，严格匹配路由*/}
+                    <Redirect exact from='/' to='/login'/>
+                    <Route exact path='/login' component={Login}/>
+                    <Route exact path='/home' component={Home}/>
                 </Switch>
             </Router>
         )
