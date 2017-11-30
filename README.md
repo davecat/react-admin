@@ -1,6 +1,6 @@
-这个项目是官方推荐create-react-app构建的。
+这个项目是官方推荐create-react-app构建的,采用最新react v16+ 、react-router v4，放弃官方废弃的API，使用最新API的探索。
 
-下面，你会快速了解到一个基于react的SPA是如何搭建起来的。
+下面，你会快速了解到一个基于react v16.1.1的SPA是如何搭建起来的。
 
 
 ## 文件结构
@@ -25,7 +25,13 @@ my-app/
 ```
 
 ## 目录
-
+- 技术栈
+```
+  React 16.1.*
+  react-router v4.2.0
+  element-react v1.4.3
+  axios v0.17.1
+```
 - 配置文件说明
 ```
   npm run start 启动项目
